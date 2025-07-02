@@ -1,0 +1,22 @@
+pipeline{
+    agent any
+   
+    stages{
+        stage('Git Checkout'){
+            steps{
+               git branch: 'main', credentialsId: 'b68fdfa3-8af8-4100-ada8-9a3c7ac54345', url: 'https://github.com/Dimpu2427/1-tier-aws-terraform.git'
+            }
+        }
+        stage('Terraform init'){
+            steps{
+                sh label:'',script: 'terraform init'
+            }
+        }
+         stage('Terraform Apply'){
+            steps{
+                sh label:'',script: 'terraform apply --auto-approve'
+            }
+        }
+    }
+}
+
