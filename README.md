@@ -38,6 +38,39 @@ A Security Group (allowing SSH & HTTP)
 
 An EC2 Instance with a key pair
 
+2️⃣ Push Code to GitHub
+
+Created a new GitHub repository
+
+Committed and pushed all Terraform files into it
+
+3️⃣ Set Up Jenkins Server
+
+Provisioned a new EC2 instance
+
+Installed:
+
+Jenkins
+
+Git
+
+Terraform
+
+Enabled port 8080 for Jenkins access
+
+4️⃣ Configure Jenkins Pipeline
+
+Created a new Pipeline Job in Jenkins
+
+Configured GitHub webhook (optional, for automation)
+
+5️⃣ Trigger Jenkins Build
+
+Manually or via GitHub webhook
+
+Jenkins pulled the latest Terraform code and triggered the pipeline
+
+AWS resources were automatically provisioned
 
 
 
