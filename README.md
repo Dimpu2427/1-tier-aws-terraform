@@ -4,16 +4,20 @@
 
     Terraform
     
-    AWS (EC2, VPC, Security Group, etc.)
-    
+    AWS (EC2, VPC, Security Group, etc..)
+
     Jenkins
-    
+
     GitHub
+    
+    
     
 📌 Project Architecture
 
 GitHub holds the Terraform code.
+
 Jenkins is configured to automatically pull the code and execute a pipeline.
+
 Jenkins triggers Terraform commands to provision infrastructure in AWS.
 
 
