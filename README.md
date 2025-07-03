@@ -20,6 +20,23 @@ Jenkins is configured to automatically pull the code and execute a pipeline.
 
 Jenkins triggers Terraform commands to provision infrastructure in AWS.
 
+🚀 Step-by-Step Workflow
+
+1️⃣ Write Terraform Code
+
+I wrote Terraform scripts to provision:
+
+A VPC
+
+A public subnet
+
+An Internet Gateway
+
+A Route Table
+
+A Security Group (allowing SSH & HTTP)
+
+An EC2 Instance with a key pair
 
 
 
