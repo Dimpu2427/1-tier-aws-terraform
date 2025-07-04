@@ -73,5 +73,5 @@ Jenkins pulled the latest Terraform code and triggered the pipeline
 AWS resources were automatically provisioned
 
 
-
+NOTE: I GIVE FULL ACCESS TO EC2 INSTANCE INSTEAD OF ACCESS KEY AND SECRET ACCESS KEY. CREATE AN IAM ROLE FOR EC2FULLACCESS AND ATTACH THAT ROLE TO THE EC2 INSTANCE
 
